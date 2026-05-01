@@ -1,6 +1,7 @@
 const path = require("path")
 module.exports = {
     entry: [
+        "./public/build/babel/i18n.js",
         "./public/build/babel/app.js",
         "./public/build/babel/storage.js",
         "./public/build/babel/categoryView.js",

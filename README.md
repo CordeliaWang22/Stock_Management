@@ -1,5 +1,7 @@
 # 📦 **Inventory App JS**
 
+[![codecov](https://codecov.io/github/CordeliaWang22/Stock_Management/graph/badge.svg?token=YDIH6XW1VN)](https://codecov.io/github/CordeliaWang22/Stock_Management)
+
 **A sleek and efficient inventory management application powered by JavaScript.**  
 Easily track, update, and manage your inventory with an intuitive UI and dynamic functionality.
 

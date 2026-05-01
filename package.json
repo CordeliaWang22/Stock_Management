@@ -1,23 +1,21 @@
 {
-  "devDependencies": {
-    "@babel/core": "^7.29.0",
-    "@babel/preset-env": "^7.29.3",
-    "@testing-library/jest-dom": "^6.9.1",
-    "babel-jest": "^30.3.0",
-    "babel-loader": "^9.2.1",
-    "css-loader": "^7.1.2",
-    "jest": "^30.3.0",
-    "jest-environment-jsdom": "^30.3.0",
-    "loader": "^2.1.1",
-    "style": "^0.0.3",
-    "tailwindcss": "^3.4.13",
-    "webpack": "^5.95.0",
-    "webpack-cli": "^5.1.4"
-  },
   "name": "inventory-app",
   "version": "1.0.0",
   "description": "",
   "main": "tailwind.config.js",
+  "author": "Abolfazl Rahmati",
+  "license": "MIT",
+  "scripts": {
+    "dev": "npx tailwindcss -i ./src/css/tailwind.css -o ./public/build/style.css --watch",
+    "tailwind-minify": "npx tailwindcss -i ./src/css/tailwind.css -o ./public/build/style.css --minify",
+    "app-babel": "babel src/js/app.js -o public/build/babel/app.js --presets @babel/preset-env",
+    "categoryView-babel": "babel src/js/categoryView.js -o public/build/babel/categoryView.js --presets @babel/preset-env",
+    "i18n-babel": "babel src/js/i18n.js -o public/build/babel/i18n.js --presets @babel/preset-env",
+    "productView-babel": "babel src/js/productView.js -o public/build/babel/productView.js --presets @babel/preset-env",
+    "storage-babel": "babel src/js/storage.js -o public/build/babel/storage.js --presets @babel/preset-env",
+    "build": "webpack",
+    "test": "jest --env=jsdom --coverage"
+  },
   "dependencies": {
     "@babel/cli": "^7.25.7",
     "ansi-regex": "^6.1.0",
@@ -97,7 +95,9 @@
     "signal-exit": "^4.1.0",
     "source-map-js": "^1.2.1",
     "string-width": "^5.1.2",
+    "string-width-cjs": "^4.2.3",
     "strip-ansi": "^7.1.0",
+    "strip-ansi-cjs": "^6.0.1",
     "sucrase": "^3.35.0",
     "supports-preserve-symlinks-flag": "^1.0.0",
     "thenify": "^3.3.1",
@@ -107,18 +107,22 @@
     "util-deprecate": "^1.0.2",
     "which": "^2.0.2",
     "wrap-ansi": "^8.1.0",
+    "wrap-ansi-cjs": "^7.0.0",
     "yaml": "^2.5.1"
   },
-  "scripts": {
-    "dev": "...",
-    "tailwind-minify": "...",
-    "app-babel": "...",
-    "categoryView-babel": "...",
-    "productView-babel": "...",
-    "storage-babel": "...",
-    "test": "jest --coverage",
-    "build": "webpack"
-  },
-  "author": "Abolfazl Rahmati",
-  "license": "MIT"
+  "devDependencies": {
+    "@babel/core": "^7.29.0",
+    "@babel/preset-env": "^7.29.3",
+    "@testing-library/jest-dom": "^6.9.1",
+    "babel-jest": "^30.3.0",
+    "babel-loader": "^9.2.1",
+    "css-loader": "^7.1.2",
+    "jest": "^30.3.0",
+    "jest-environment-jsdom": "^30.3.0",
+    "loader": "^2.1.1",
+    "style": "^0.0.3",
+    "tailwindcss": "^3.4.13",
+    "webpack": "^5.95.0",
+    "webpack-cli": "^5.1.4"
+  }
 }

@@ -31,25 +31,28 @@
             <div class=" bg-red-400/ xx:py-4 ss:py-3 zz:px-5 ww:px-4 xx:px-3.5 ss:px-3 flex  flex-col w-full ">
                 <!-- category title -->
                 <div class="  flex flex-col  w-full bg-yellow-300/ ">
-                    <h3 class=" w-full text-left zz:text-[17px] ww:text-[16px] xx:text-[15px] dd:text-[13px] ss:text-[12.5px] text-white mt-1 font-medium "> Title</h3>
-                    <input 
-                        class=" zz:mt-3 ww:mt-2 xx:mt-1.5 ss:mt-1 xx:text-base dd:text-[14px] ss:text-[12.5px] zz:w-52 xx:w-44 bg-transparent outline-none border-[#394247] border-2 text-stone-100  px-2 py-1.5 xx:rounded-xl ss:rounded-lg focus:border-green-600 "
-                        type="text" name="" id="categoryTitle">
+                    <label for="categoryTitle" class=" w-full text-left zz:text-[17px] ww:text-[16px] xx:text-[15px] dd:text-[13px] ss:text-[12.5px] text-white mt-1 font-medium "> Title</label>
+                    <input class=" zz:mt-3 ww:mt-2 xx:mt-1.5 ss:mt-1 xx:text-base dd:text-[14px] ss:text-[12.5px] zz:w-52 xx:w-44 bg-transparent outline-none border-[#394247] border-2 text-stone-100  px-2 py-1.5 xx:rounded-xl ss:rounded-lg focus:border-green-600 "
+                           type="text" name="" id="categoryTitle">
                 </div>
                 <!-- category description -->
                 <div class="  flex flex-col  w-full bg-yellow-300/ mt-4 pb-2 ">
-                    <h3 class=" w-full text-left zz:text-[17px] ww:text-[16px] xx:text-[15px] dd:text-[13px] ss:text-[12.5px] text-white mt-1 font-medium "> Description</h3>
+                    <label for="categoryDescription" class=" w-full text-left zz:text-[17px] ww:text-[16px] xx:text-[15px] dd:text-[13px] ss:text-[12.5px] text-white mt-1 font-medium "> Description</label>
                     <textarea cols="3" id="categoryDescription"
-                        class=" zz:mt-3 ww:mt-2 xx:mt-1.5 ss:mt-1  w-full h-16 min-h-14 max-h-16 xx:text-base dd:text-[14px] bg-transparent outline-none border-[#394247] border-2 text-stone-100  px-2 py-2 xx:rounded-xl ss:rounded-lg focus:border-green-600 "
-                        type="text" name="" id="descInput"></textarea>
+                              class=" zz:mt-3 ww:mt-2 xx:mt-1.5 ss:mt-1  w-full h-16 min-h-14 max-h-16 xx:text-base dd:text-[14px] bg-transparent outline-none border-[#394247] border-2 text-stone-100  px-2 py-2 xx:rounded-xl ss:rounded-lg focus:border-green-600 "
+                              type="text" name="" id="descInput"></textarea>
                 </div>
                 <!-- Confirm or reject -->
                 <div class=" bg-blue-400/ h-auto flex items-center justify-between w-full xx:mt-4 ss:mt-3 ">
                     <button id="categoryCanelBtn"
-                        class="zz:text-base ww:text-[15px] xx:text-[14px] dd:text-[13px] ss:text-[12.5px] w-1/2 zz:py-2.5 ww:py-2 xx:py-2 ss:py-1.5 mr-2 text-green-600 border-2 border-green-600 xx:rounded-xl ss:rounded-lg font-semibold ">Cancel</button>
+                            class="zz:text-base ww:text-[15px] xx:text-[14px] dd:text-[13px] ss:text-[12.5px] w-1/2 zz:py-2.5 ww:py-2 xx:py-2 ss:py-1.5 mr-2 text-green-600 border-2 border-green-600 xx:rounded-xl ss:rounded-lg font-semibold ">
+                        Cancel
+                    </button>
                     <button id="categoryAddNewBtn"
-                        class=" zz:text-base ww:text-[15px] xx:text-[14px] dd:text-[13px] ss:text-[12.5px] w-1/2 zz:py-2.5 ww:py-2 xx:py-2 ss:py-1.5 ml-2 text-main bg-green-600 border-2 border-green-600 xx:rounded-xl ss:rounded-lg font-semibold ">Add
-                        Category</button>
+                            class=" zz:text-base ww:text-[15px] xx:text-[14px] dd:text-[13px] ss:text-[12.5px] w-1/2 zz:py-2.5 ww:py-2 xx:py-2 ss:py-1.5 ml-2 text-main bg-green-600 border-2 border-green-600 xx:rounded-xl ss:rounded-lg font-semibold ">
+                        Add
+                        Category
+                    </button>
                 </div>
             </div>
         </div>
@@ -65,28 +68,27 @@
                 <div class=" flex items-center justify-between w-full ss:flex-col dd:flex-row ">
                     <!-- title -->
                     <div class="  flex flex-col  dd:w-2/5 ss:w-full bg-yellow-300/ dd:mr-2  ">
-                        <h3 class=" w-full text-leftzz:text-[17px] ww:text-[16px] xx:text-[15px] dd:text-[13px] ss:text-[12.5px] text-white mt-1 font-medium "> Title</h3>
-                        <input
-                            class=" zz:mt-3 ww:mt-2 xx:mt-1.5 ss:mt-1 w-full  bg-transparent outline-none border-[#394247] border-2 text-stone-100  px-2 xx:py-2 dd:py-1 ss:py-1 xx:rounded-xl ss:rounded-lg focus:border-green-600 "
-                            type="text" name="" id="productTitle">
+                        <label for="productTitle" class=" w-full text-leftzz:text-[17px] ww:text-[16px] xx:text-[15px] dd:text-[13px] ss:text-[12.5px] text-white mt-1 font-medium "> Title</label>
+                        <input class=" zz:mt-3 ww:mt-2 xx:mt-1.5 ss:mt-1 w-full  bg-transparent outline-none border-[#394247] border-2 text-stone-100  px-2 xx:py-2 dd:py-1 ss:py-1 xx:rounded-xl ss:rounded-lg focus:border-green-600 "
+                               type="text" name="" id="productTitle">
                     </div>
                     <!-- quantity -->
                     <div class="  flex flex-col  dd:w-3/5 ss:w-full bg-yellow-300/ dd:ml-2 ss:mt-2 dd:mt-0 ">
-                        <h3 class=" w-full text-leftzz:text-[17px] ww:text-[16px] xx:text-[15px] dd:text-[13px] ss:text-[12.5px] text-white mt-1 font-medium "> Quantity</h3>
-                        <div  id="quantityCenter" class="flex items-center justify-between  zz:mt-3 ww:mt-2 xx:mt-1.5 ss:mt-1 w-full  border-[#394247] border-2 text-stone-100  px-2.5 xx:h-11 dd:h-9 ss:h-9 xx:rounded-xl ss:rounded-lg "
-                            type="text">
-                            <button id="decQty" class="  toggleBtn flex items-center justify-center p-1 rounded-full bg-[#273842]  ">
+                        <label for="productQuantity" class=" w-full text-leftzz:text-[17px] ww:text-[16px] xx:text-[15px] dd:text-[13px] ss:text-[12.5px] text-white mt-1 font-medium "> Quantity</label>
+                        <div id="quantityCenter" class="flex items-center justify-between  zz:mt-3 ww:mt-2 xx:mt-1.5 ss:mt-1 w-full  border-[#394247] border-2 text-stone-100  px-2.5 xx:h-11 dd:h-9 ss:h-9 xx:rounded-xl ss:rounded-lg "
+                             type="text">
+                            <button id="decQty" aria-label="Decrease quantity" class="  toggleBtn flex items-center justify-center p-1 rounded-full bg-[#273842]  ">
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                    stroke-width="1.5" stroke="#fff" class="xx:size-4 ss:size-3 ">
+                                     stroke-width="1.5" stroke="#fff" class="xx:size-4 ss:size-3 ">
                                     <path stroke="#fff" stroke-linecap="round" stroke-linejoin="round" d="M5 12h14" />
                                 </svg>
                             </button>
-                            <p  id="productQuantity" class="  ww:text-base xx:text-[14px] dd:text-[13px] ss:text-[12px] font-medium text-stone-100 ">0</p>
-                            <button id="incQty" class="toggleBtn  flex items-center justify-center p-1 rounded-full bg-[#273842]  ">
+                            <p id="productQuantity" class="  ww:text-base xx:text-[14px] dd:text-[13px] ss:text-[12px] font-medium text-stone-100 ">0</p>
+                            <button id="incQty" aria-label="Increase quantity" class="toggleBtn  flex items-center justify-center p-1 rounded-full bg-[#273842]  ">
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                                    stroke-width="1.5" stroke="#fff" class="xx:size-4 ss:size-3">
+                                     stroke-width="1.5" stroke="#fff" class="xx:size-4 ss:size-3">
                                     <path stroke="#fff" stroke-linecap="round" stroke-linejoin="round"
-                                        d="M12 4.5v15m7.5-7.5h-15" />
+                                          d="M12 4.5v15m7.5-7.5h-15" />
                                 </svg>
                             </button>
                         </div>
@@ -96,9 +98,9 @@
                 <div class=" dd:mt-4 ss:mt-2 flex items-center justify-between w-full ss:flex-col dd:flex-row ">
                     <!-- location -->
                     <div class="  flex flex-col  dd:w-[52%] ss:w-full bg-yellow-300/ dd:mr-2  ">
-                        <h3 class=" w-full text-leftzz:text-[17px] ww:text-[16px] xx:text-[15px] dd:text-[13px] ss:text-[12.5px] text-white mt-1 font-medium "> Location</h3>
+                        <label for="productLocations" class=" w-full text-leftzz:text-[17px] ww:text-[16px] xx:text-[15px] dd:text-[13px] ss:text-[12.5px] text-white mt-1 font-medium "> Location</label>
                         <select id="productLocations"
-                            class=" form-select pr-8 pl-3 bg-no-repeat appearance-none w-full ww:text-base xx:text-[14px] ss:text-[13px] zz:mt-3 ww:mt-2 xx:mt-1.5 ss:mt-1 border-[#394247] border-2  text-stone-100 text-[15px] outline-none focus:ring-0 font-normal xx:rounded-xl ss:rounded-lg focus:ring-green-600 focus:border-green-600 block xx:p-2.5 ss:p-1.5 bg-[#1A262D] ">
+                                class=" form-select pr-8 pl-3 bg-no-repeat appearance-none w-full ww:text-base xx:text-[14px] ss:text-[13px] zz:mt-3 ww:mt-2 xx:mt-1.5 ss:mt-1 border-[#394247] border-2  text-stone-100 text-[15px] outline-none focus:ring-0 font-normal xx:rounded-xl ss:rounded-lg focus:ring-green-600 focus:border-green-600 block xx:p-2.5 ss:p-1.5 bg-[#1A262D] ">
                             <option selected value="none">- select location - </option>
                             <option value="BDG">BDG</option>
                             <option value="JKT">JKT</option>
@@ -107,9 +109,9 @@
                     </div>
                     <!-- quantity -->
                     <div class="  flex flex-col  dd:w-[50%] ss:w-full bg-yellow-300/ dd:ml-2 ss:mt-2 dd:mt-0 ">
-                        <h3 class=" w-full text-leftzz:text-[17px] ww:text-[16px] xx:text-[15px] dd:text-[13px] ss:text-[12.5px] text-white mt-1 font-medium "> Category</h3>
+                        <label for="categoriesSelect" class=" w-full text-leftzz:text-[17px] ww:text-[16px] xx:text-[15px] dd:text-[13px] ss:text-[12.5px] text-white mt-1 font-medium "> Category</label>
                         <select id="categoriesSelect"
-                            class=" form-select pr-8 pl-3 bg-no-repeat appearance-none w-full ww:text-base xx:text-[14px] ss:text-[13px] zz:mt-3 ww:mt-2 xx:mt-1.5 ss:mt-1 border-[#394247] border-2  text-stone-100 text-[15px] outline-none focus:ring-0 font-normal xx:rounded-xl ss:rounded-lg focus:ring-green-600 focus:border-green-600 block xx:p-2.5 ss:p-1.5 bg-[#1A262D] ">
+                                class=" form-select pr-8 pl-3 bg-no-repeat appearance-none w-full ww:text-base xx:text-[14px] ss:text-[13px] zz:mt-3 ww:mt-2 xx:mt-1.5 ss:mt-1 border-[#394247] border-2  text-stone-100 text-[15px] outline-none focus:ring-0 font-normal xx:rounded-xl ss:rounded-lg focus:ring-green-600 focus:border-green-600 block xx:p-2.5 ss:p-1.5 bg-[#1A262D] ">
                             <option selected value="none">- select category -</option>
                             <!-- <option  value=""></option> -->
                         </select>
@@ -118,8 +120,10 @@
                 <!-- Add -->
                 <div class=" bg-blue-400/ h-auto flex items-center justify-between w-full mt-6 ">
                     <button id="addNewProductBtn"
-                        class="zz:text-base ww:text-[15px] xx:text-[14px] dd:text-[13px] ss:text-[12.5px] zz:py-2.5 ww:py-2 xx:py-2 ss:py-1.5 w-full py-2.5  text-main bg-green-600 border-2 border-green-600 xx:rounded-xl ss:rounded-lg font-semibold ">Add
-                        Product</button>
+                            class="zz:text-base ww:text-[15px] xx:text-[14px] dd:text-[13px] ss:text-[12.5px] zz:py-2.5 ww:py-2 xx:py-2 ss:py-1.5 w-full py-2.5  text-main bg-green-600 border-2 border-green-600 xx:rounded-xl ss:rounded-lg font-semibold ">
+                        Add
+                        Product
+                    </button>
                 </div>
             </div>
         </div>
@@ -129,12 +133,13 @@
         <h2 class=" text-left text-white zz:text-2xl ww:text-xl font-medium ml-1 ">Products List</h2>
         <div class=" flex items-center justify-between w-full bg-yellow-400/ mt-5 ">
             <!-- search products -->
-            <input
-                class=" ww:text-base xx:text-[15px] dd:text-[14px] ss:text-[13px] zz:w-52 ww:w-40 dd:w-32 xx:w-28 ss:w-24 bg-transparent outline-none border-[#394247] border-2 text-stone-100  xx:px-3 xx:py-2 dd:px-2 dd:py-1.5 ss:p-1.5 xx:rounded-xl ss:rounded-lg focus:border-green-600 "
-                type="text" name="" placeholder="Search..." id="searchInput">
+            <label for="searchInput" class="sr-only">Search products</label>
+            <input class=" ww:text-base xx:text-[15px] dd:text-[14px] ss:text-[13px] zz:w-52 ww:w-40 dd:w-32 xx:w-28 ss:w-24 bg-transparent outline-none border-[#394247] border-2 text-stone-100  xx:px-3 xx:py-2 dd:px-2 dd:py-1.5 ss:p-1.5 xx:rounded-xl ss:rounded-lg focus:border-green-600 "
+                   type="text" name="" placeholder="Search..." id="searchInput">
             <!-- sort products -->
+            <label for="sort" class="sr-only">Sort products</label>
             <select id="sort"
-                class=" form-select pr-8 pl-3 bg-no-repeat appearance-none zz:w-32 ww:w-28 xx:w-24 dd:w-24 ss:w-20 border-[#394247] border-2  text-stone-100 xx:text-[15px] dd:text-[13px] ss:text-[12px] outline-none focus:ring-0 font-normal xx:rounded-xl ss:rounded-lg focus:ring-green-600 focus:border-green-600 block xx:p-2.5 dd:p-2 ss:p-1.5 bg-[#1A262D] ">
+                    class=" form-select pr-8 pl-3 bg-no-repeat appearance-none zz:w-32 ww:w-28 xx:w-24 dd:w-24 ss:w-20 border-[#394247] border-2  text-stone-100 xx:text-[15px] dd:text-[13px] ss:text-[12px] outline-none focus:ring-0 font-normal xx:rounded-xl ss:rounded-lg focus:ring-green-600 focus:border-green-600 block xx:p-2.5 dd:p-2 ss:p-1.5 bg-[#1A262D] ">
                 <option selected value="newest">Newst</option>
                 <option value="oldest">Oldest</option>
                 <option value="A-Z">A-Z</option>
@@ -143,7 +148,7 @@
         </div>
         <!-- pr list -->
         <div class=" flex items-center justify-center ww:w-full ss:w-full ww:mr-3 dd:mt-8 ss:mt-6 overflow-x-auto bg-black/ ">
-            <ul  id="productsCenter" class=" flex flex-col justify-center items-stretch ww:w-full xx:w-[500px] ss:w-[400px] py-2 zz:overflow-hidden ss:overflow-x-auto bg-yellow-500/ ">
+            <ul id="productsCenter" class=" flex flex-col justify-center items-stretch ww:w-full xx:w-[500px] ss:w-[400px] py-2 zz:overflow-hidden ss:overflow-x-auto bg-yellow-500/ ">
                 <!-- <li  class=" flex items-center justify-between  w-full py-2 bg-blue-400/ text-white font-medium ss:min-w-[500px] ss:overflow-x-auto ">
                     <p class=" basis-[16%] ww:text-base xx:text-[15px] dd:text-[14px] ss:text-[13px] ">gondara</p>
                     <p class=" basis-[16%] ww:text-base xx:text-[15px] dd:text-[14px] ss:text-[13px] "> BDG</p>
